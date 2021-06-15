@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4,9,30,0.7)), url(../images/Login_Fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 2%;
+    width: 100%;
+    height: auto;
+}
+
+.column {
+    flex-basis: 100%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+}
+
+.register {
+    width: 320px;
+    height: 420px;
+    background: rgba(0,0,0,0.8);
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.register p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.register input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.row input[type="text"], input[type="password"], input[type="file"] {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.row input[type="submit"]:hover {
+    cursor: pointer;
+    background: #f44336;
+    width: 100%;
+}
+
+.row select {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.register input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: transparent;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.register input[type="submit"]:hover {
+    cursor: pointer;
+    background: #f44336;
+    width: 100%;
+}

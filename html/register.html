@@ -2,9 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Baby Sitter Register</title>
+    <link rel="stylesheet" href="../styles/register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="register">
+        <h1>
+            Registrate
+        </h1>
+        <form>
+            <div class="row">
+                <div class="column">
+                    <p>
+                        Usuario
+                    </p>
+                    <input type="text" name="" placeholder="Ingresa tu usuario" >
+                </div>
+                <div class="column">
+                    <p>
+                        Tipo de usuario
+                    </p>
+                    <select name="types" id="types">
+                        <option value="volvo">Niñera</option>
+                        <option value="saab">Usuario</option>
+                    </select>
+                </div>
 
+            </div>
+            <div class="row">
+                <div class="column">
+                    <p>
+                        Contraseña
+                    </p>
+                    <input type="password" name="" placeholder="Ingresa tu contraseña">
+                </div>
+                <div class="column">
+                    <p>
+                        Imagen de perfil
+                    </p>
+                    <input type="file" name="" placeholder="Ingresa tu imagen" accept=".heic,.heif,.png,.jpg,.jpeg">
+                </div>
+            </div>
+            <input type="submit" name="" value="Registrate">
+        </form>
+    </div>
+    <script src="../scripts/register.js.js"></script>
 </body>
 </html>
