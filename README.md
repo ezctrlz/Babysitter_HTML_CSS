@@ -10,7 +10,14 @@ Realización del proyecto planteado en el canal de:
 
 ## Diagramas
 
-[Diagramas](https://drive.google.com/drive/folders/1n3AZCoGx-G0UMpOVAvyX1NiyMLU3Bs45?usp=sharing)
+Se encuentran ubicadas en el folder de **information** junto a los **wireframes** para su revisión
+
+```bash
+\Babysitter_HTML_CSS\information\diagrams
+```
+```bash
+\Babysitter_HTML_CSS\information\wireframes
+```
 ## Uso
 
 Para poder correr el proyecto de manera local se debe abrir el archivo:
